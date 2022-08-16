@@ -65,11 +65,13 @@ nav .navigation
 	width: 30px;
 	height: 30px;
 	display: none;
+	cursor: pointer;
 }
 
 #menu-close
 {
 	display: none;
+	cursor: pointer;
 }
 
 nav .navigation ul
@@ -286,7 +288,7 @@ nav .navigation ul li a:hover
 #registration
 {
 	padding: 6vw 8vw 6vw 8vw;
-	background-image: linear-gradient(rgba(99,112,168,0.5), rgba(81,91,233,0.5)),url("img/signup.jpg");
+	background-image: linear-gradient(rgba(99,112,168,0.5), rgba(81,91,233,0.5)),url("../img/signup.jpg");
 	width: 100%;
 	height: 100%;
 	background-size: cover;
@@ -678,5 +680,23 @@ footer .copyright .pro-links i:hover
 	{
 		justify-content: space-evenly;
 		margin-top: 20px;
+	}
+
+	footer .subscribe
+	{
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+
+	footer .subscribe input
+	{
+		width: 100%;
+
+	}
+
+	footer .subscribe .yellow
+	{
+		width: 120px;
 	}
 }
